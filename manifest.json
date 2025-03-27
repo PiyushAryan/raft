@@ -1,0 +1,22 @@
+{
+    "name": "Raft Memento",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "A extension to show the death clock and the time left to live",
+    "action":{
+        "default_popup": "popup.html",
+        "default_icon": "images/raft.png"
+        
+        
+    },
+
+    "icons": {
+        "16": "images/raft-16.png",
+        "64": "images/raft-64.png",
+        "128": "images/raft.png"
+    }
+
+    
+
+
+}
