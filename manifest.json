@@ -3,6 +3,7 @@
     "version": "1.0",
     "manifest_version": 3,
     "description": "A extension to show the death clock and the time left to live",
+    "permissions": ["geolocation", "activeTab"],
     "action":{
         "default_popup": "popup.html",
         "default_icon": "images/raft.png"
