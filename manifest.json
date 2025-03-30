@@ -2,13 +2,11 @@
     "name": "Raft Memento",
     "version": "1.0",
     "manifest_version": 3,
-    "description": "A extension to show the death clock and the time left to live",
-    "permissions": ["geolocation", "activeTab"],
-    "action":{
-        "default_popup": "popup.html",
-        "default_icon": "images/raft.png"
-        
-        
+    "description": "A extension to show the death clock and the time left to live on earth and the current weather conditions",
+    "permissions": ["geolocation","activeTab","tabs"],
+    
+    "chrome_url_overrides": {
+        "newtab": "newTab.html"
     },
 
     "icons": {
@@ -16,8 +14,5 @@
         "64": "images/raft-64.png",
         "128": "images/raft.png"
     }
-
-    
-
 
 }

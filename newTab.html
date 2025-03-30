@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+    <title>New Tab</title>
+    </head>
+    <body class="w-full h-screen text-white p-10 bg-no-repeat bg-center bg-cover"
+    style="background-image: url('images/bg-r3-r.png');">
+        <div class="w-full h-full flex items-center  justify-center">
+            <div class="bg-center text-white pt-10 w-80 text-center space-y-6">
+                <h2 class="text-2xl font-bold mb-4">
+                    <img class="px-24 mx-auto" src="/images/raft-64.png">RAFT
+                </h2>
+                <h1 class="text-sm mb-6">Calculate your raft on Earth</h1>
+    
+                <div class="space-y-4">
+                    <input type="number" id="birthYear" required placeholder="e.g., 2000"
+                    class="w-full p-3 border border-white rounded-2xl bg-transparent opacity-80 text-white" />
+                    <input type="text" id="getLocation" required placeholder="e.g., Bengaluru"
+                        class="w-full p-3 border border-white rounded-2xl bg-transparent opacity-80 text-white" />
+                </div>
+    
+                <div class="mt-6 flex space-x-4">
+                    <button id="calculateButton"
+                        class="w-full shadow-2xl text-lg bg-blend-soft-light border border-white hover:bg-emerald-950 bg-lime-700 rounded-2xl text-white font-bold py-4 px-4">
+                        Live Raft
+                    </button>
+                </div>
+        <div class="mt-6 text-lg">
+                <p id="countdown" class="mt-4 font-semibold text-white"></p>
+                <p id="weather" class="mt-4 font-semibold text-white"></p>
+        </div>
+            </div>
+        </div>
+    <script src="newtab.js" defer></script>
+    </body>
+</html>
