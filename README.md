@@ -36,7 +36,7 @@ Raft is a **fun and quirky** Chrome Extension that tells you **how much life you
 ## 📸 Screenshots
 | Raft UI 🌊 | Weather & Life Stats ☁️⏳ |
 |-----------|-------------------|
-| ![Raft Logo](./images/raft.png) | ![Raft UI](./assets/screenshot.png) |
+| ![Raft Logo](./images/raft.png) | ![Raft UI](./images/screenshot.png) |
 
 ---
 
